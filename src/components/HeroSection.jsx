@@ -7,19 +7,19 @@ export const HeroSection = () => {
   const images = [
     {
       id: 1,
-      img: "/public/assets/images/2.jpg",
+      img: "/assets/images/2.jpg",
     },
     {
       id: 2,
-      img: "/public/assets/images/10.jpg",
+      img: "/assets/images/10.jpg",
     },
     {
       id: 3,
-      img: "/public/assets/images/5.jpg",
+      img: "/assets/images/5.jpg",
     },
     {
       id: 4,
-      img: "/public/assets/images/12.jpg",
+      img: "/assets/images/12.jpg",
     },
   ];
   const handleAnimationComplete = () => {

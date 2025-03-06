@@ -7,7 +7,7 @@ import { Articles } from "./components/Articles";
 import { Footer } from "./components/Footer";
 const ArticleRaw = [
   {
-    gambar: "/public/assets/images/articles.jpg",
+    gambar: "/assets/images/articles.jpg",
     judul:
       "Implementation of Agile SDLC in the Development of SIRUMA (Restaurant Information System)",
     deskripsi:
@@ -16,7 +16,7 @@ const ArticleRaw = [
     ket: "More Info",
   },
   {
-    gambar: "/public/assets/images/vba.jpg",
+    gambar: "/assets/images/vba.jpg",
     judul:
       "Development of a VBA Application for Small and Micro Business Inventory Management",
     deskripsi:
@@ -25,7 +25,7 @@ const ArticleRaw = [
     ket: "Not available",
   },
   {
-    gambar: "/public/assets/images/ecommerce.jpg",
+    gambar: "/assets/images/ecommerce.jpg",
     judul:
       "Developing an E-Commerce Website to Reduce Small Business Dependence on Fees",
     deskripsi:
