@@ -10,22 +10,32 @@ export const Header = () => {
     {
       icon: <VscHome size={18} />,
       label: "Home",
-      onClick: () => alert("Home!"),
+      onClick: () =>
+        document.getElementById("Home").scrollIntoView({ behavior: "smooth" }),
     },
     {
       icon: <VscCodeOss size={18} />,
       label: "Achievments",
-      onClick: () => alert("Archive!"),
+      onClick: () =>
+        document
+          .getElementById("Achievments")
+          .scrollIntoView({ behavior: "smooth" }),
     },
     {
       icon: <VscBook size={18} />,
       label: "Projects",
-      onClick: () => alert("Profile!"),
+      onClick: () =>
+        document
+          .getElementById("Projects")
+          .scrollIntoView({ behavior: "smooth" }),
     },
     {
       icon: <VscAccount size={18} />,
       label: "Contact",
-      onClick: () => alert("Settings!"),
+      onClick: () =>
+        document
+          .getElementById("Contact")
+          .scrollIntoView({ behavior: "smooth" }),
     },
   ];
   return (

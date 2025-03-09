@@ -49,23 +49,31 @@ function App() {
   return (
     <div className="min-h-screen bg-white text-black overflow-hidden pt-[110px]">
       <Header />
-      <HeroSection />
+      <div id="Home">
+        <HeroSection />
+      </div>
       <ScrollVelocity
         texts={["Vanneca's Here", "lets dive deeper"]}
         className="custom-scroll-text"
       />
       <MainContent />
-      <div id="Moment">
+      <div id="Achievments">
         <MomenSection />
       </div>
-      <div className="px-10 py-10 md:px-20 md:py-20 ">
+      <div className="px-10 py-10 md:px-20 md:py-20 " id="Projects">
         <h1 className="font-extrabold text-6xl">Article and Projects</h1>
         <div className="grid grid-cols-3 gap-5">{Article}</div>
       </div>
       <hr />
-      <div className="px-10 py-10 md:px-20 md:py-10 ">
+      <div className="px-10 py-10 md:px-20 md:py-10 " id="Contact">
         <h1 className="font-extrabold text-6xl">Contact Me</h1>
-        <Footer />
+        <hr />
+        <div className="flex justify-center gap-5 px-10 py-10 md:px-20 md:py-10">
+          <a href="mailto:adiivaniyusuf@gmail.com">Email</a>
+          <a href="https://www.instagram.com/ivany_ai/">Instagram</a>
+        </div>
+        <hr />
+        <p className="">Copyright Adi Ivani Y.</p>
       </div>
     </div>
   );

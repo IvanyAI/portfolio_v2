@@ -76,7 +76,7 @@ export const HeroSection = () => {
             className="relative px-6 py-2 ml-5 text-white font-semibold rounded-full border border-gray-600 bg-black transition-all duration-300 
       before:absolute before:inset-0 before:bg-gradient-to-r before:from-white/10 before:to-transparent before:rounded-full before:opacity-0 
       before:transition-opacity before:duration-300 hover:before:opacity-100"
-            href="#Moment"
+            href="#Achievments"
           >
             more?
           </a>
