@@ -69,8 +69,12 @@ function App() {
         <h1 className="font-extrabold text-6xl">Contact Me</h1>
         <hr />
         <div className="flex justify-center gap-5 px-10 py-10 md:px-20 md:py-10">
-          <a href="mailto:adiivaniyusuf@gmail.com">Email</a>
-          <a href="https://www.instagram.com/ivany_ai/">Instagram</a>
+          <a href="mailto:adiivaniyusuf@gmail.com" target="_blank">
+            Email
+          </a>
+          <a href="https://www.instagram.com/ivany_ai/" target="_blank">
+            Instagram
+          </a>
         </div>
         <hr />
         <p className="">Copyright Adi Ivani Y.</p>
